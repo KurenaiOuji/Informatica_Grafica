@@ -43,13 +43,13 @@ Shader "Unlit/Glass"
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = v.uv;
                 o.normal = v.normal;
-                o.viewDir = normalize(ObjSpaceViewDir(v.vertex))
+                o.viewDir = normalize(ObjSpaceViewDir(v.vertex));
                 return o;
             }
 
             void unity_FresnelEffect_float(float3 Normal, float3 ViewDir, float Power, out float Out)
             {
-                Out = pow((1.0 - saturate(dot(normalize(Normal), normalize(ViewDir)))), Power)
+                Out = pow((1.0 - saturate(dot(normalize(Normal), normalize(ViewDir)))), Power);
             }
 
             fixed4 frag (v2f i) : SV_Target

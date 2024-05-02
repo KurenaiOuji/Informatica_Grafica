@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Liquid
-  m_Shader: {fileID: 4800000, guid: da3cd9dfd78c7c040aeb735f14dc4a69, type: 3}
+  m_Name: Glass
+  m_Shader: {fileID: 4800000, guid: f4b3515613be94f49b3e24a777cfb068, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -25,10 +25,8 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _LiquidAmount: -0.14
-    - _MidAmount: 0.2
+    - _Power: 0.119
     m_Colors:
-    - _BaseColor: {r: 0.5943396, g: 0.2539911, b: 0, a: 1}
-    - _MidColor: {r: 1, g: 0.31677017, b: 0, a: 1}
-    - _TopColor: {r: 1, g: 0.663304, b: 0.4009434, a: 1}
+    - _Color: {r: 0.27058825, g: 0.18039216, b: 0.10196079, a: 1}
+    - _TopColor: {r: 0, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
