@@ -15,7 +15,7 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -25,10 +25,10 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _LiquidAmount: -0.14
+    - _LiquidAmount: 0.55
     - _MidAmount: 0.2
     m_Colors:
-    - _BaseColor: {r: 0.5943396, g: 0.2539911, b: 0, a: 1}
+    - _BaseColor: {r: 0.5882353, g: 0.2784314, b: 0, a: 1}
     - _MidColor: {r: 1, g: 0.31677017, b: 0, a: 1}
-    - _TopColor: {r: 1, g: 0.663304, b: 0.4009434, a: 1}
+    - _TopColor: {r: 1, g: 0.59607846, b: 0.50980395, a: 1}
   m_BuildTextureStacks: []

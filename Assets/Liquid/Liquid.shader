@@ -9,9 +9,10 @@ Shader "Unlit/Liquid"
         _LiquidAmount("Liquid Amount", Range(-2, 2)) = 0
         _MidAmount ("Middle Amount", Range(0, 0.2)) = 0
     }
+
     SubShader
     {
-        Tags { "RenderType"="Opaque" "DisableBatching"="True"}
+        Tags { "RenderType"="Opaque" "DisableBatching"="True" }
         ZWrite On
         Cull Off
         AlphaToMask On
